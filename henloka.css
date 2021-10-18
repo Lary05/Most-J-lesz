@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/50097912597_e9be3e0a4f_k.jpg");
+}
+
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a {
+    color: aliceblue;
+    text-align: center;
+}
+
+b {
+    text-align: center;
+}
