@@ -2,37 +2,92 @@ body {
     background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/50097912597_e9be3e0a4f_k.jpg");
 }
 
-a:link,
+/*a:link,
 a:visited {
-    background-color: #f44336;
     color: white;
-    padding: 15px 25px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
+}*/
 
 .a {
     color: aliceblue;
     text-align: center;
 }
 
+.szin {
+    color: azure;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+    background: ;
+}
+
 b {
     text-align: center;
-
+    font-size: 51px;
+    height: auto;
 }
 
 .c {
-   /*display: flex;
-   flex-direction: row;*/
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   width: 100%;
-
-
-
-
+    display: flex;
+    font-size: 51px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
 }
+
+.btn {
+    font-size: 20px;
+    outline: none;
+    display: block;
+    line-height: 1;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background: rgb(92, 115, 190);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background: rgb(59, 48, 160);
+}
+/*
+section {
+    display: table;
+}*/
+
+article {
+    float: right;
+    padding: 20px;
+    width: 80%;
+    background-color: #695959;
+    height: 300px;
+    opacity: 0.9;
+    line-height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    max-height: 500px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+    opacity: 0.9;
+    line-height: 200%;
+}
+/*
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+ */
