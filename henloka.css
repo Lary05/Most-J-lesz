@@ -1,5 +1,8 @@
 body {
-    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/50097912597_e9be3e0a4f_k.jpg");
+    background-image: url("https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/general-information/sports-associations/sports-associations.jpg?itok=BGgsVt7w");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 /*a:link,
