@@ -1,9 +1,13 @@
 body {
+    background-color: rgb(105, 84, 65);
+    /*
     background-image: url("https://files.northernbeaches.nsw.gov.au/sites/default/files/styles/gi--main-thumbnail/public/images/general-information/sports-associations/sports-associations.jpg?itok=BGgsVt7w");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+*/
 }
+
 
 /*a:link,
 a:visited {
@@ -49,8 +53,8 @@ b {
     display: block;
     line-height: 1;
     padding: 15px 25px;
-    border-radius: 20px;
-    background: rgb(92, 115, 190);
+    border-radius: 3px;
+    background: rgb(75, 90, 136);
     color: white;
     cursor: pointer;
     transition: all 0.3s linear;
