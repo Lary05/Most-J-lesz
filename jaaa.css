@@ -1,4 +1,5 @@
-ul {
+/*ul {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,8 +14,9 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color on hover */
+   Change the link color on hover 
   li a:hover {
     background-color: #555;
     color: white;
   }
+  
