@@ -1,6 +1,6 @@
 body {
     background-color: rgb(82, 61, 44);
-    margin: auto;
+    margin: 0;
 }
 .rendezes {
     color: aliceblue;
@@ -82,7 +82,7 @@ nav {
     line-height: 200%;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 100;
@@ -91,10 +91,39 @@ ul {
     position: relative;
     
     
+    
 }
+
+
+.most{
+
+
+
+
+
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+
+
+}
+
+    
+
+/*
+
 
 li {
     float: left;
+    padding-left: center;
+    top: 50%;
+    left: 50%;
+    
     
 }
 
@@ -109,3 +138,67 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+
+*/
+
+.bar{
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .bar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .bar-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .bar a, .bar-right {
+      float: none;
+      display: block;
+    }
+    
+    .bar-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
