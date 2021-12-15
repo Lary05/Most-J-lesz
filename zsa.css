@@ -1,3 +1,9 @@
+* {
+
+    box-sizing: border-box;
+
+
+}
 body {
     background-color: rgb(82, 61, 44);
     margin: 0;
@@ -99,6 +105,32 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
@@ -124,7 +156,7 @@ li a:hover {
 }
 
 
-*/
+
 
 .bar {
     position: relative;
@@ -153,10 +185,14 @@ li a:hover {
 
 .bar-centered a {
     display: flex;
-    justify-content: center;
     flex-direction: row;
 
     /*
+
+justify-content: center;
+
+
+
     float: none;
     position: absolute;
     justify-content: center;
@@ -170,6 +206,22 @@ li a:hover {
 }
 
 /* Responsive navigation menu (for mobile devices) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     .bar a,
     .bar-right {
