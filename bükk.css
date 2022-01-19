@@ -1,6 +1,10 @@
-<style>
 body {
   font-family: "Lato", sans-serif;
+  background-color: rgb(82, 61, 44);
+    background-image: url('wallpapersden.com_evening-sunset-mountains-firewatch-drawing_1080x2340.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 .sidenav {
@@ -12,7 +16,7 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 300px;
 }
 
 .sidenav a {
@@ -37,4 +41,3 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-</style>
