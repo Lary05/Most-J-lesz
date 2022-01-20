@@ -9,28 +9,134 @@
     <link rel="stylesheet" href="bükk2.css">
 -->
     <title>Document</title>
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(216, 208, 208);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 800px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #7c6666;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #925454;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      </style>
 </head>
 <body>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="bükk.js"></script>
 
     <div id="navbar">
         <a href="#default" id="logo">Bükk</a>
         <div id="navbar-right">
-          <a class="active" href="főoldal.html">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="főoldal.html">Home</a>
+          <a class="active" href="bükk.html">Bükk</a>
+          <a href="mátra.html">Mátra</a>
+          <a href="börzöny.html">Börzöny</a>
+          <a href="Mecsek.html">Mecsek</a>
         </div>
       </div>
       
-    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
         <div class="sidenav">
                 <a href="#about">About</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique necessitatibus blanditiis soluta dignissimos iusto earum commodi minima inventore mollitia quibusdam cupiditate, maxime magnam fuga laboriosam illum accusantium voluptates nihil.</p>
                 <a href="#services">Services</a>
                 <a href="#clients">Clients</a>
                 <a href="#contact">Contact</a>
               </div>
               
+
+
+
+
+            -->
+
+
+
+
+
+
+
+
+
               <div class="main">
                 <h2>Sidebar</h2>
                 <p>This sidebar is of full height (100%) and always shown.</p>
@@ -45,5 +151,56 @@
               </div>
                  
     <p>csá</p>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    
+    <h2>Animated Sidenav Example</h2>
+    <p>lorem1000</p>
+    <span height="300px" style="font-size:30px;cursor:pointer"  onclick="openNav()">&#9776; open</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>
