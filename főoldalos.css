@@ -25,7 +25,7 @@
   }
   .navbar {
     display: flex;
-    background-color: #333;
+    background-color: rgb(36, 35, 35);
     justify-content: left;
     font-size: 22px;
   }
