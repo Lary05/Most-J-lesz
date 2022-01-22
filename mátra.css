@@ -1,0 +1,103 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(82, 61, 44);
+    background-image: url("wallpapersden.com_evening-sunset-mountains-firewatch-drawing_1080x2340.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    padding: 50px;
+    width: 900px;
+    margin: 190px auto;
+
+    background-color: rgb(58, 56, 56);
+}
+
+span {
+    top: 35%;
+    position: fixed;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(243, 226, 203);
+}
+
+h1,
+h2 {
+    color: rgb(187, 131, 75);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(27, 25, 25);
+    padding: 50px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar a {
+    float: left;
+    color: #818181;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#navbar a:hover {
+    background-color: rgb(117, 84, 84);
+    color: white;
+}
+
+#navbar a.active {
+    background-color: rgb(151, 173, 196);
+    color: white;
+}
+
+#navbar-right {
+    float: right;
+}
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    #navbar-right {
+        float: none;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
